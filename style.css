@@ -1,0 +1,166 @@
+html, body {
+   
+    width: 100%;
+    height:100%;
+    
+ }
+ .banner{
+    background-image: url('image/IMG_2083\ \(2\).JPG');
+    height: 540px;
+    border-radius: 15px;
+ }
+ .banner .phrase p{
+    color: orange;
+    text-align: center;
+    padding: 350px;
+    font-weight: bolder;
+    font-size: 40px;
+ }
+ a{
+    text-decoration: none;
+    color: rgb(252, 246, 246);
+    font-size: 15px;
+ }
+ .banner .phrase button{
+    background-color:grey;
+    margin-bottom: 500px;
+    padding: 15px;
+ }
+ .banner .phrase button:hover{
+    background-color: orange;
+    color: grey;
+    transition-duration: 2s;
+    transition-delay: 2s;
+ }
+ .container .middle{display: contents;}
+ /*
+ =============================
+ partie milieu - aprtie grille 
+ =============================
+ */
+ /*parti service*/
+ .service{
+   margin-left: 30px;
+ }
+.service p{
+   
+    font-size: 40px;
+    color: grey;
+}
+.service hr{
+   width: 150px;
+   list-style-position: initial;
+   position: relative;
+   float: left;
+}
+ /*partie service fin*/
+ .case-grille{
+    width: 100%;
+    color: grey;
+    padding-right: 10px;
+    padding-top: 10px;
+ }
+ .case-grille .categorie{
+    border-right:2px solid orange;
+    border-bottom: solid orange;
+    border-top: solid orange;
+    border-radius: 5px;
+    width: 350px;
+    height: 150px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    display: inline;
+    float: left;
+ }
+ .case-grille .categorie h3{
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .case-grille .categorie hr{
+    width: 150px;
+    position: relative;
+    float: left;
+    
+ }
+ .case-grille .categorie p{
+    text-align: left;
+ }
+ /*
+ ==================================
+ partie milieu - aprtie grille fin
+ ==================================
+ */
+ /*
+ ====================
+ partie contact 
+ ====================
+ */
+ .contact-us{
+    position: relative;
+    float: left;
+    padding: 10px;
+    text-align: center;
+   padding-bottom: 100px;
+   
+ }
+ input{
+    padding: 4px;
+   margin: 3px;
+    border: solid grey;
+    width: 250px;
+    border-radius: 10px;
+ }
+ input:focus-visible{
+    color: grey;
+    
+   }
+.contact-us .partie1{
+   display: flex;
+   padding-right: 8px;
+   margin-left: 30px;
+   padding-bottom: 5px;
+}
+.contact-us .partie2{
+   float:initial;
+   
+}
+textarea:focus-visible{
+   color: grey;
+}
+textarea{
+   border: solid grey;
+   width: 400px;
+   position: relative;
+   margin-right: 10px;
+   border-radius: 10px;
+}
+button:hover{
+   cursor: progress;
+   background-color:grey;
+   color: orange;
+   transition-duration: 2s;
+}
+button{
+   background-color: orange;
+   color: grey;
+   position: relative;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 50px;
+   border-radius: 10px;
+   margin-top: 30px;
+}
+/*
+ ====================
+ partie contact fin
+ ====================
+ */
+footer {
+    position:fixed;
+    bottom:0;  /* on le colle en bas */
+    width:100%;
+      
+    text-align: center;
+    background-color: orange;
+    color: grey;
+ }
