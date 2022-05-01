@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'multi_font';
+	src: url('droidkufiregular.eot');
+	src: url('droidkufiregular.eot?#iefix') format('embedded-opentype'),
+			url('droidkufiregular.woff') format('woff'),
+			url('droidkufiregular.ttf') format('truetype'),
+			url('droidkufiregular.svg#droidkufiregular') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/*--------------------------------------------------------*/
+
+h1.h1_title  {
+    font-size: 26px; 
+    padding: 10px;
+}
+
+input[type="submit"], button[type="submit"], button {
+    font-family:'multi_font',Arial,Tahoma,Sans-serif;
+}
+
+.single .single_header h2 {
+    float: right;
+    margin-right: 20px;
+}
+
+.single .single_header span {
+    float: left;
+    margin-left: 10px;
+}

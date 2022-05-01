@@ -1,0 +1,98 @@
+html{
+	font-size: 10px;
+}
+body{
+	background-color: #000;
+
+}
+li{
+	display: inline-block;
+	padding: 30px;
+	padding-right: 150px;
+	text-align: center;
+	padding-left: 150px;
+	list-style-type: none;
+    float: left;
+    font-family: "Bell MT",Arial,sans-serif
+}
+
+a{
+  display: inline-block;
+  text-decoration: #35990f;
+  padding: 20px 40px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.slide{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.moi{
+	width: inherit;
+	height: inherit;
+	position: absolute;
+	opacity: 0;
+	animation: cycleImages 31s infinite;
+}
+
+
+.moi img{
+width: inherit;
+height: inherit;
+object-fit: cover;
+animation: zoom 31s infinite;
+}
+.moi:nth-child(1),
+.moi:nth-child(1) img{
+animation-delay: 0s;
+}
+.moi:nth-child(2),
+.moi:nth-child(2) img{
+animation-delay: 10s;
+}
+.moi:nth-child(3),
+.moi:nth-child(3) img{
+animation-delay: 20s;
+}
+
+.text{
+max-width:60%;
+position: absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+background-color: rgb(860,175,07,.6);
+color:#fff;
+padding: 10rem 5rem;
+}
+p{
+font-size: 1.6rem;
+font-family: 'Robot',sans-serif;
+letter-spacing: 1px;
+font-weight: 300;
+}
+.text h5{
+font-size: 5rem;
+font-family: 'Raleway',sans-serif;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 2.5rem;
+
+}
+@keyframes cycleImages{
+	25%{
+opacity: 1;
+	}
+	40%{
+opacity: 0;
+	}
+}
+@keyframes zoom{
+	100%{
+		transform: scale(1.3);
+	}
+
+}

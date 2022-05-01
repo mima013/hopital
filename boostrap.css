@@ -1,0 +1,50 @@
+body{
+	font-family: "Bell MT",Calibrie,sans-serif;
+	font-size: 20px;
+	background-color: #19BCF0;
+}
+div{
+	margin-right: 20px;
+	display: inline;
+	border: 1px;
+	border-radius: 3px;
+}
+
+
+span{
+	border:100px;
+	border-radius: 15px;
+	border-color: #45123C;
+	background-color: #665ABC;
+	color:black;
+}
+.ajouter{
+  border-top: 5px solid #4C9;
+  background-color: RGBa(200,312,00,0.15)
+}
+.eff{
+  border-top:5px solid #F2DC5F;
+  background-color: RGBa(230,222,92,0.15);
+}
+.menu{
+  border-top:5px solid #F89E55;
+  background-color:RGBa(228,000,192,0.15);
+}
+  .li{
+  border-top:5px solid #B17890;
+  background-color:RGBa(189,027,079,0.15);
+}
+  .me{
+  border-top:5px solid #89CCCA;
+  background-color:RGBa(800,500,102,0.15);}
+  .lo{
+  border-top:5px solid #BB23A2;
+  background-color:RGBa(690,103,409,0.15);}
+  .cont{
+  	border: 1px;
+  	color:red;
+  }
+  .gly{
+  	border-radius: 3px;
+  	border-top: 7px solid #ABEEFF;
+  }
